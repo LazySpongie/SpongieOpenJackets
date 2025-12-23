@@ -17,7 +17,7 @@ module Base {
 		ScratchDefense = 20,
 		WindResistance = 0.1,
 		WorldStaticModel = Trousers_Ground,
-		Tags = base:ripclothingcotton;IgnoreZombieDensity,
+		Tags = base:ripclothingcotton,
 	}
 	
 	item Trousers_OliveDrabTUCK
@@ -55,7 +55,7 @@ module Base {
 		WaterResistance = 0.35,
 		WindResistance = 0.30,
 		WorldStaticModel = Trousers_Ground,
-		Tags = base:ripclothingcotton;IgnoreZombieDensity,
+		Tags = base:ripclothingcotton,
 	}
 
 	item Trousers_CamoTigerStripeTUCK
@@ -74,7 +74,7 @@ module Base {
 		WaterResistance = 0.35,
 		WindResistance = 0.30,
 		WorldStaticModel = Trousers_Ground,
-		Tags = base:ripclothingcotton;IgnoreZombieDensity,
+		Tags = base:ripclothingcotton,
 	}
 	
 	item Trousers_Denim_PunkTUCK

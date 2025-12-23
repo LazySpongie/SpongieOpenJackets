@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF8'?>
 <outfitManager>
-	<m_FemaleOutfits><!--GOOD-->
+	<m_FemaleOutfits>
 		<m_Name>AmbulanceDriver</m_Name>
 		<m_Guid>e3fcc5f7-3484-4e9f-b522-58eb17cceec9</m_Guid>
 		<m_Top>false</m_Top>
@@ -26,18 +26,18 @@
 		</m_items>
 		<m_items>
 			<probability>0.5</probability>
-			<itemGUID>Jacket_NavyBlue</itemGUID><!--Jacket_NavyBlue-->
+			<itemGUID>Jacket_NavyBlue</itemGUID>
 			<subItems>
-				<itemGUID>Jacket_NavyBlueOPEN</itemGUID><!--Jacket_NavyBlueOPEN-->
+				<itemGUID>Jacket_NavyBlueOPEN</itemGUID>
 			</subItems>
 			<subItems>
-				<itemGUID>Jacket_NavyBlueROLL</itemGUID><!--Jacket_NavyBlueROLL-->
+				<itemGUID>Jacket_NavyBlueROLL</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>
-			<itemGUID>Shirt_FormalWhite</itemGUID><!--Shirt_FormalWhite-->
+			<itemGUID>Shirt_FormalWhite</itemGUID>
 			<subItems>
-				<itemGUID>Shirt_FormalWhiteROLL</itemGUID><!--Shirt_FormalWhiteROLL-->
+				<itemGUID>Shirt_FormalWhiteROLL</itemGUID>
 			</subItems>
 			<subItems>
 				<itemGUID>Shirt_FormalWhite_ShortSleeve</itemGUID>
@@ -125,8 +125,25 @@
 				<itemGUID>WristWatch_Left_DigitalRed</itemGUID>
 			</subItems>
 		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>Bag_MedicalBag</itemGUID>
+			<subItems>
+				<itemGUID>Bag_Satchel_Medical</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Bag_SchoolBag_Medical</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>Belt</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>Hat_SurgicalMask</itemGUID>
+		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits><!--GOOD-->
+	<m_FemaleOutfits>
 		<m_Name>ArmyCamoDesert</m_Name>
 		<m_Guid>50ef789b-54a6-4021-b817-78e1e417bd91</m_Guid>
 		<m_Top>false</m_Top>
@@ -136,42 +153,48 @@
 		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
 		<m_items>
 			<probability>0.5</probability>
-			<itemGUID>Jacket_ArmyCamoDesert</itemGUID><!--Jacket_ArmyCamoDesert-->
+			<itemGUID>Jacket_ArmyCamoDesert</itemGUID>
 			<subItems>
-				<itemGUID>Jacket_ArmyCamoDesertOPEN</itemGUID><!--Jacket_ArmyCamoDesertOPEN-->
+				<itemGUID>Jacket_ArmyCamoDesertOPEN</itemGUID>
 			</subItems>
 			<subItems>
-				<itemGUID>Jacket_ArmyCamoDesertROLL</itemGUID><!--Jacket_ArmyCamoDesertROLL-->
+				<itemGUID>Jacket_ArmyCamoDesertROLL</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>
-			<itemGUID>Socks_Ankle</itemGUID>
+			<itemGUID>Shoes_ArmyBootsDesert</itemGUID>
 		</m_items>
 		<m_items>
-			<itemGUID>Shoes_ArmyBootsDesert</itemGUID><!--Shoes_ArmyBootsDesert-->
-		</m_items>
-		<m_items>
-			<itemGUID>Trousers_CamoDesert</itemGUID><!--Trousers_CamoDesert-->
+			<itemGUID>Trousers_CamoDesert</itemGUID>
 			<subItems>
-				<itemGUID>Trousers_CamoDesertTUCK</itemGUID><!--Trousers_CamoDesertTUCK-->
+				<itemGUID>Trousers_CamoDesertTUCK</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>
 			<itemGUID>Tshirt_CamoDesert</itemGUID>
 			<subItems>
-				<itemGUID>Shirt_CamoDesert</itemGUID><!--Shirt_CamoDesert-->
+				<itemGUID>Shirt_CamoDesert</itemGUID>
 				<subItems>
-					<itemGUID>Shirt_CamoDesertROLL</itemGUID><!--Shirt_CamoDesertROLL-->
+					<itemGUID>Shirt_CamoDesertROLL</itemGUID>
 				</subItems>
 			</subItems>
 		</m_items>
 		<m_items>
 			<probability>0.3</probability>
 			<itemGUID>Bag_ALICEpack</itemGUID>
+			<subItems>
+				<itemGUID>Bag_ALICEpack_DesertCamo</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Bag_HydrationBackpack_Camo</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Bag_Military</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
 			<probability>0.8</probability>
-			<itemGUID>Necklace_DogTag</itemGUID>
+			<itemGUID>Necklace_DogTag_Female</itemGUID>
 		</m_items>
 		<m_items>
 			<probability>0.3</probability>
@@ -186,8 +209,48 @@
 				<itemGUID>WristWatch_Left_DigitalRed</itemGUID>
 			</subItems>
 		</m_items>
+		<m_items>
+			<itemGUID>Belt</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>Bag_ALICE_BeltSus_Green</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>ShemaghScarf_Green</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>Bag_ManPackRadio</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>Kneepad_Left_Military</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>ElbowPad_Left_Military</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>Socks_Heavy</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>Glasses_Normal</itemGUID>
+			<subItems>
+				<itemGUID>Glasses_Shooting</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.6</probability>
+			<itemGUID>Hat_ArmyDesert</itemGUID>
+			<subItems>
+				<itemGUID>Hat_BonnieHat_DesertCamo</itemGUID>
+			</subItems>
+		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits><!--GOOD-->
+	<m_FemaleOutfits>
 		<m_Name>ArmyCamoGreen</m_Name>
 		<m_Guid>af2c54a5-570c-46c4-937c-cb6bc4dfa796</m_Guid>
 		<m_Top>false</m_Top>
@@ -197,12 +260,15 @@
 		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
 		<m_items>
 			<probability>0.5</probability>
-			<itemGUID>Jacket_ArmyCamoGreen</itemGUID><!--Jacket_ArmyCamoGreen-->
+			<itemGUID>Jacket_ArmyCamoGreen</itemGUID>
 			<subItems>
-				<itemGUID>Jacket_ArmyCamoGreenOPEN</itemGUID><!--Jacket_ArmyCamoGreenOPEN-->
+				<itemGUID>Jacket_ArmyCamoGreenOPEN</itemGUID>
 			</subItems>
 			<subItems>
-				<itemGUID>Jacket_ArmyCamoGreenROLL</itemGUID><!--Jacket_ArmyCamoGreenROLL-->
+				<itemGUID>Jacket_ArmyCamoGreenROLL</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Jacket_ArmyCamoGreenOPENROLL</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>
@@ -214,14 +280,20 @@
 		</m_items>
 		<m_items>
 			<probability>0.3</probability>
-			<itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
+			<itemGUID>Bag_ALICEpack_Army</itemGUID>
+			<subItems>
+				<itemGUID>Bag_HydrationBackpack_Camo</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Bag_Military</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
 			<itemGUID>Tshirt_CamoGreen</itemGUID>
 			<subItems>
-				<itemGUID>Shirt_CamoGreen</itemGUID><!--Shirt_CamoGreen-->
+				<itemGUID>Shirt_CamoGreen</itemGUID>
 				<subItems>
-					<itemGUID>Shirt_CamoGreenROLL</itemGUID><!--Shirt_CamoGreenROLL-->
+					<itemGUID>Shirt_CamoGreenROLL</itemGUID>
 				</subItems>
 			</subItems>
 			<subItems>
@@ -232,337 +304,66 @@
 			<itemGUID>Socks_Ankle</itemGUID>
 		</m_items>
 		<m_items>
-			<itemGUID>Shoes_ArmyBoots</itemGUID><!--Shoes_ArmyBoots-->
-		</m_items>
-		<m_items>
-			<itemGUID>Trousers_CamoGreen</itemGUID><!--Trousers_CamoGreen-->
-			<subItems>
-				<itemGUID>Trousers_CamoGreenTUCK</itemGUID><!--Trousers_CamoGreenTUCK-->
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.8</probability>
-			<itemGUID>Necklace_DogTag</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>WristWatch_Left_ClassicBlack</itemGUID>
-			<subItems>
-				<itemGUID>WristWatch_Left_ClassicBrown</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>WristWatch_Left_DigitalBlack</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>WristWatch_Left_DigitalRed</itemGUID>
-			</subItems>
-		</m_items>
-	</m_FemaleOutfits>
-	<m_FemaleOutfits><!--GOOD-->
-		<m_Name>Bandit</m_Name>
-		<m_Guid>8f618a16-c5f5-42c9-91e0-55c9761a6059</m_Guid>
-		<m_items>
-			<probability>0.7</probability>
-			<itemGUID>HoodieUP_WhiteTINT</itemGUID><!--HoodieUP_WhiteTINT-->
-			<subItems>
-				<itemGUID>HoodieUP_WhiteTINTOPEN</itemGUID><!--HoodieUP_WhiteTINTOPEN-->
-			</subItems>
-		</m_items>
-		<m_items>
-			<itemGUID>Trousers_JeanBaggy</itemGUID>
-			<subItems>
-				<itemGUID>Trousers_Black</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>Trousers_Denim</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
 			<itemGUID>Shoes_ArmyBoots</itemGUID>
-			<subItems>
-				<itemGUID>Shoes_Random</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>Gloves_LeatherGloves</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.1</probability>
-			<itemGUID>Hat_BalaclavaFull</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.2</probability>
-			<itemGUID>NoseRing_Gold</itemGUID>
-			<subItems>
-				<itemGUID>NoseRing_Silver</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>NoseStud_Gold</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>NoseStud_Silver</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.5</probability>
-			<itemGUID>Necklace_Choker</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>WristWatch_Left_ClassicBlack</itemGUID>
-			<subItems>
-				<itemGUID>WristWatch_Left_ClassicBrown</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>WristWatch_Left_DigitalBlack</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>WristWatch_Left_DigitalRed</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.2</probability>
-			<itemGUID>AmmoStrap_Bullets</itemGUID>
-			<subItems>
-				<itemGUID>AmmoStrap_Shells</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>Bag_DuffelBag</itemGUID>
-			<subItems>
-				<itemGUID>Bag_HikingBag</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>Bag_SchoolBag</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.1</probability>
-			<itemGUID>Bag_ALICEpack</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.1</probability>
-			<itemGUID>Hat_GasMask</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.4</probability>
-			<itemGUID>Hat_BandanaMaskTINT</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>Hat_BandanaTINT</itemGUID>
-			<subItems>
-				<itemGUID>Hat_BaseballCap</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>Hat_BaseballCap_Reverse</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>Trousers_CamoUrban</itemGUID>
-			<subItems>
-				<itemGUID>Shorts_CamoUrbanLong</itemGUID>
-			</subItems>
-		</m_items>
-	</m_FemaleOutfits>
-	<m_FemaleOutfits><!--GOOD-->
-		<m_Name>Biker</m_Name>
-		<m_Guid>b9453ae0-415b-4cb6-a4c8-604a4a407015</m_Guid>
-		<m_Pants>false</m_Pants>
-		<m_items>
-			<itemGUID>Hat_Bandana</itemGUID>
-			<subItems>
-				<itemGUID>Hat_BandanaTINT</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>Hat_CrashHelmet</itemGUID>
-			<subItems>
-				<itemGUID>Hat_CrashHelmetFULL</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.5</probability>
-			<itemGUID>Jacket_Black</itemGUID><!--Jacket_Black-->
-			<subItems>
-				<itemGUID>Jacket_BlackOPEN</itemGUID><!--Jacket_BlackOPEN-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_BlackROLL</itemGUID><!--Jacket_BlackROLL-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_WhiteTINT</itemGUID><!--Jacket_White-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_WhiteOPEN</itemGUID><!--Jacket_WhiteOPEN-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_WhiteROLL</itemGUID><!--Jacket_WhiteROLL-->
-			</subItems>
-		</m_items>
-		<m_items>
-			<itemGUID>Shoes_Random</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>Gloves_LeatherGloves</itemGUID>
-			<subItems>
-				<itemGUID>Gloves_FingerlessGloves</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<itemGUID>Trousers_Denim</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.2</probability>
-			<itemGUID>Glasses_Aviators</itemGUID>
-		</m_items>
-		<m_items>
-			<itemGUID>Tshirt_DefaultTEXTURE_TINT</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>Tshirt_Rock</itemGUID>
-		</m_items>
-		<m_items>
-			<itemGUID>Hat_BandanaMask</itemGUID>
-			<subItems>
-				<itemGUID>Hat_BandanaMaskTINT</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.7</probability>
-			<itemGUID>Necklace_Choker</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>WristWatch_Left_ClassicBlack</itemGUID>
-			<subItems>
-				<itemGUID>WristWatch_Left_ClassicBrown</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>WristWatch_Left_DigitalBlack</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>WristWatch_Left_DigitalRed</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.5</probability>
-			<itemGUID>Jacket_LeatherWildRaccoons</itemGUID><!--Jacket_LeatherWildRacoons-->
-			<subItems>
-				<itemGUID>Jacket_LeatherWildRacoonsOPEN</itemGUID><!--Jacket_LeatherWildRacoonsOPEN-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_LeatherWildRacoonsROLL</itemGUID><!--Jacket_LeatherWildRacoons-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_LeatherBarrelDogs</itemGUID><!--Jacket_LeatherBarrelDogs-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_LeatherBarrelDogsOPEN</itemGUID><!--Jacket_LeatherBarrelDogsOPEN-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_LeatherBarrelDogsROLL</itemGUID><!--Jacket_LeatherBarrelDogs-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_LeatherIronRodent</itemGUID><!--Jacket_LeatherIronRodent-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_LeatherIronRodentOPEN</itemGUID><!--Jacket_LeatherIronRodentOPEN-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_LeatherIronRodentROLL</itemGUID><!--Jacket_LeatherIronRodent-->
-			</subItems>
-		</m_items>
-	</m_FemaleOutfits>
-	<m_FemaleOutfits><!--GOOD-->
-		<m_Name>Camper</m_Name>
-		<m_Guid>7de89d42-b6e7-4f10-ba38-84bf4091ac3a</m_Guid>
-		<m_items>
-			<probability>0.5</probability>
-			<itemGUID>Hat_BonnieHat</itemGUID>
-			<subItems>
-				<itemGUID>Hat_Bandana</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>Hat_BaseballCap</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>Hat_BonnieHat_CamoGreen</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<itemGUID>Shirt_Denim</itemGUID><!--Shirt_Denim-->
-			<subItems>
-				<itemGUID>Shirt_DenimROLL</itemGUID><!--Shirt_DenimROLL-->
-			</subItems>
-			<subItems>
-				<itemGUID>Shirt_CamoGreen</itemGUID><!--Shirt_CamoGreen-->
-			</subItems>
-			<subItems>
-				<itemGUID>Shirt_CamoGreenROLL</itemGUID><!--Shirt_CamoGreenROLL-->
-			</subItems>
-			<subItems>
-				<itemGUID>Shirt_Lumberjack</itemGUID><!--Shirt_Lumberjack-->
-			</subItems>
-			<subItems>
-				<itemGUID>Shirt_LumberjackROLL</itemGUID><!--Shirt_LumberjackROLL-->
-			</subItems>
 		</m_items>
 		<m_items>
 			<itemGUID>Trousers_CamoGreen</itemGUID>
 			<subItems>
-				<itemGUID>Shorts_CamoGreenLong</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>Shorts_LongDenim</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>Shorts_ShortDenim</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>Trousers_DefaultTEXTURE_TINT</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>Trousers_JeanBaggy</itemGUID>
+				<itemGUID>Trousers_CamoGreenTUCK</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>
-			<itemGUID>Shoes_ArmyBoots</itemGUID>
+			<probability>0.8</probability>
+			<itemGUID>Necklace_DogTag_Female</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>WristWatch_Left_ClassicBlack</itemGUID>
 			<subItems>
-				<itemGUID>Shoes_Black</itemGUID>
+				<itemGUID>WristWatch_Left_ClassicBrown</itemGUID>
 			</subItems>
 			<subItems>
-				<itemGUID>Shoes_BlackBoots</itemGUID>
+				<itemGUID>WristWatch_Left_DigitalBlack</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>WristWatch_Left_DigitalRed</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>
-			<probability>0.5</probability>
-			<itemGUID>Bag_ALICEpack</itemGUID>
-			<subItems>
-				<itemGUID>Bag_BigHikingBag</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>Bag_HikingBag</itemGUID>
-			</subItems>
+			<itemGUID>Belt</itemGUID>
 		</m_items>
 		<m_items>
 			<probability>0.5</probability>
-			<itemGUID>Vest_DefaultTEXTURE_TINT</itemGUID>
+			<itemGUID>Bag_ALICE_BeltSus_Camo</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>ShemaghScarf_Green</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>Bag_ManPackRadio</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>Kneepad_Left_Military</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>ElbowPad_Left_Military</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>Socks_Heavy</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>Glasses</itemGUID>
 			<subItems>
-				<itemGUID>Vest_Hunting_Camo</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>Vest_Hunting_Grey</itemGUID>
+				<itemGUID>Glasses_Shooting</itemGUID>
 			</subItems>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits><!--GOOD-->
+	<m_FemaleOutfits>
 		<m_Name>Doctor</m_Name>
 		<m_Guid>23731a48-3cbd-494e-9ea8-781000a83041</m_Guid>
 		<m_Top>false</m_Top>
@@ -571,9 +372,15 @@
 		<m_AllowTopTint>false</m_AllowTopTint>
 		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
 		<m_items>
-			<itemGUID>JacketLong_Doctor</itemGUID><!--JacketLong_Doctor-->
+			<itemGUID>JacketLong_Doctor</itemGUID>
 			<subItems>
-				<itemGUID>JacketLong_DoctorOPEN</itemGUID><!--JacketLong_DoctorOPEN-->
+				<itemGUID>JacketLong_DoctorOPEN</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>JacketLong_DoctorROLL</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>JacketLong_DoctorOPENROLL</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>
@@ -586,20 +393,23 @@
 			<itemGUID>Trousers_SuitTEXTURE</itemGUID>
 		</m_items>
 		<m_items>
-			<itemGUID>Shirt_FormalWhite</itemGUID><!--Shirt_FormalWhite-->
+			<itemGUID>Shirt_FormalWhite</itemGUID>
 			<subItems>
-				<itemGUID>Shirt_FormalWhiteROLL</itemGUID><!--Shirt_FormalWhiteROLL-->
-			</subItems>
-			<subItems>
-				<itemGUID>Shirt_FormalTINT</itemGUID><!--Shirt_FormalTINT-->
-				<subItems>
-					<itemGUID>Shirt_FormalTINTROLL</itemGUID><!--Shirt_FormalTINTROLL-->
-				</subItems>
+				<itemGUID>Shirt_FormalTINT</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>
 			<probability>0.3</probability>
 			<itemGUID>Glasses_Normal</itemGUID>
+			<subItems>
+				<itemGUID>Glasses_CatsEye</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Glasses_Normal_HornRimmed</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Glasses_Reading</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
 			<probability>0.2</probability>
@@ -677,8 +487,19 @@
 				<itemGUID>WristWatch_Left_DigitalRed</itemGUID>
 			</subItems>
 		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>Hat_HeadMirrorDOWN</itemGUID>
+			<subItems>
+				<itemGUID>Hat_HeadMirrorUP</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>Hat_SurgicalMask</itemGUID>
+		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits><!--GOOD-->
+	<m_FemaleOutfits>
 		<m_Name>Farmer</m_Name>
 		<m_Guid>3c455da2-831a-40d7-bc7d-fc7154507c89</m_Guid>
 		<m_Pants>false</m_Pants>
@@ -686,36 +507,61 @@
 		<m_items>
 			<itemGUID>Dungarees</itemGUID>
 			<subItems>
+				<itemGUID>DungareesDOWN</itemGUID>
+			</subItems>
+			<subItems>
 				<itemGUID>Trousers_Denim</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>
 			<itemGUID>Shoes_Black</itemGUID>
 			<subItems>
-				<itemGUID>Shoes_ArmyBoots</itemGUID>
+				<itemGUID>Shoes_CowboyBoots</itemGUID>
 			</subItems>
 			<subItems>
-				<itemGUID>Shoes_BlackBoots</itemGUID>
+				<itemGUID>Shoes_Wellies</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Shoes_WorkBoots</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>
-			<probability>0.1</probability>
+			<probability>0.2</probability>
 			<itemGUID>Hat_Cowboy</itemGUID>
+			<subItems>
+				<itemGUID>Hat_BaseballCap</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Hat_BaseballCap_HuntingCamo</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Hat_BaseballCapTINT</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Hat_StrawHat</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
 			<probability>0.1</probability>
 			<itemGUID>Glasses_Normal</itemGUID>
+			<subItems>
+				<itemGUID>Glasses_CatsEye</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Glasses_Normal_HornRimmed</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
-			<itemGUID>Shirt_Denim</itemGUID><!--Shirt_Denim-->
+			<probability>0.9</probability>
+			<itemGUID>Shirt_Denim</itemGUID>
 			<subItems>
-				<itemGUID>Shirt_DenimROLL</itemGUID><!--Shirt_DenimROLL-->
+				<itemGUID>Shirt_DenimROLL</itemGUID>
 			</subItems>
 			<subItems>
-				<itemGUID>Shirt_Lumberjack</itemGUID><!--Shirt_Lumberjack-->
+				<itemGUID>Shirt_Lumberjack</itemGUID>
 			</subItems>
 			<subItems>
-				<itemGUID>Shirt_LumberjackROLL</itemGUID><!--Shirt_LumberjackROLL-->
+				<itemGUID>Shirt_LumberjackROLL</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>
@@ -747,8 +593,23 @@
 				<itemGUID>WristWatch_Left_DigitalRed</itemGUID>
 			</subItems>
 		</m_items>
+		<m_items>
+			<itemGUID>Belt</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>Tshirt_BluesCountry</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>Trousers_Crafted_DenimRandom</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>Shirt_Crafted_DenimRandom</itemGUID>
+		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits><!--GOOD-->
+	<m_FemaleOutfits>
 		<m_Name>Generic_Skirt</m_Name>
 		<m_Guid>51f90c8a-5465-4a8e-81ac-14f947ceaf44</m_Guid>
 		<m_Pants>false</m_Pants>
@@ -781,6 +642,9 @@
 		<m_items>
 			<probability>0.1</probability>
 			<itemGUID>Glasses_Normal</itemGUID>
+			<subItems>
+				<itemGUID>Glasses_CatsEye</itemGUID>
+			</subItems>
 			<subItems>
 				<itemGUID>Glasses_Reading</itemGUID>
 			</subItems>
@@ -945,26 +809,26 @@
 			</subItems>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits><!--GOOD-->
+	<m_FemaleOutfits>
 		<m_Name>Generic01</m_Name>
 		<m_Guid>5a39681b-f64b-4305-b36b-89c6961303db</m_Guid>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
 		<m_items>
 			<probability>0.5</probability>
-			<itemGUID>Jumper_PoloNeck</itemGUID><!--Jumper_PoloNeck-->
+			<itemGUID>Jumper_PoloNeck</itemGUID>
 			<subItems>
-				<itemGUID>Jumper_RoundNeck</itemGUID><!--Jumper_RoundNeck-->
+				<itemGUID>Jumper_RoundNeck</itemGUID>
 				<subItems>
-					<itemGUID>Jumper_RoundNeckROLL</itemGUID><!--Jumper_RoundNeckROLL-->
+					<itemGUID>Jumper_RoundNeckROLL</itemGUID>
 				</subItems>
 			</subItems>
 			<subItems>
-				<itemGUID>Jumper_VNeckROLL</itemGUID><!--Jumper_VNeckROLL-->
+				<itemGUID>Jumper_VNeckROLL</itemGUID>
 				<subItems>
-					<itemGUID>Jumper_VNeck</itemGUID><!--Jumper_VNeck-->
+					<itemGUID>Jumper_VNeck</itemGUID>
 				</subItems>
 				<subItems>
-					<itemGUID>Jumper_PoloNeckROLL</itemGUID><!--Jumper_PoloNeckROLL-->
+					<itemGUID>Jumper_PoloNeckROLL</itemGUID>
 				</subItems>
 			</subItems>
 			
@@ -981,7 +845,6 @@
 				</subItems>
 			</subItems>
 			
-			<!--Tied-->
 			<subItems>
 				<itemGUID>Jumper_PoloNeckTIED</itemGUID><!--Jumper_PoloNeckTIED-->
 				<subItems>
@@ -1021,10 +884,16 @@
 			<subItems>
 				<itemGUID>Hat_BaseballCapKY</itemGUID>
 			</subItems>
+			<subItems>
+				<itemGUID>Hat_BaseballCapTINT</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
 			<probability>0.1</probability>
 			<itemGUID>Glasses_Normal</itemGUID>
+			<subItems>
+				<itemGUID>Glasses_CatsEye</itemGUID>
+			</subItems>
 			<subItems>
 				<itemGUID>Glasses_Reading</itemGUID>
 			</subItems>
@@ -1178,7 +1047,7 @@
 			</subItems>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits><!--GOOD-->
+	<m_FemaleOutfits>
 		<m_Name>Generic02</m_Name>
 		<m_Guid>4fcf83f0-b20c-4106-8b92-1699d1094dbc</m_Guid>
 		<m_Pants>false</m_Pants>
@@ -1223,6 +1092,9 @@
 		<m_items>
 			<probability>0.1</probability>
 			<itemGUID>Glasses_Normal</itemGUID>
+			<subItems>
+				<itemGUID>Glasses_CatsEye</itemGUID>
+			</subItems>
 			<subItems>
 				<itemGUID>Glasses_Reading</itemGUID>
 			</subItems>
@@ -1366,13 +1238,16 @@
 			</subItems>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits><!--GOOD-->
+	<m_FemaleOutfits>
 		<m_Name>Generic03</m_Name>
 		<m_Guid>8e4b7b38-1e6e-4cda-a7d7-f01b75e0c8e6</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_items>
 			<probability>0.5</probability>
 			<itemGUID>Tshirt_WhiteLongSleeveTINT</itemGUID>
+			<subItems>
+				<itemGUID>Tshirt_WhiteLongSleeveTINTROLL</itemGUID><!--Shirt_Denim-->
+			</subItems>
 			<subItems>
 				<itemGUID>Shirt_Denim</itemGUID><!--Shirt_Denim-->
 			</subItems>
@@ -1401,6 +1276,9 @@
 			<subItems>
 				<itemGUID>Hat_BaseballCapKY</itemGUID>
 			</subItems>
+			<subItems>
+				<itemGUID>Hat_BaseballCapTINT</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
 			<itemGUID>Trousers_JeanBaggy</itemGUID>
@@ -1408,6 +1286,9 @@
 		<m_items>
 			<probability>0.1</probability>
 			<itemGUID>Glasses_Normal</itemGUID>
+			<subItems>
+				<itemGUID>Glasses_CatsEye</itemGUID>
+			</subItems>
 			<subItems>
 				<itemGUID>Glasses_Reading</itemGUID>
 			</subItems>
@@ -1548,54 +1429,121 @@
 			</subItems>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits><!--GOOD-->
+	<m_FemaleOutfits>
 		<m_Name>Hobbo</m_Name>
 		<m_Guid>7a11f4c9-4645-4235-8520-b4391069d136</m_Guid>
 		<m_items>
 			<probability>0.7</probability>
 			<itemGUID>Hat_Beany</itemGUID>
+			<subItems>
+				<itemGUID>Hat_Bandana</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Hat_BaseballCapTINT</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Hat_SummerFlowerHat</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Hat_Visor_WhiteTINT</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Hat_WinterHat</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Hat_WoolyHat</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
-			<probability>0.7</probability>
-			<itemGUID>Jacket_Padded</itemGUID>
+			<itemGUID>JacketLong_Random</itemGUID>
 			<subItems>
-				<itemGUID>JacketLong_Random</itemGUID><!--JacketLong_Random-->
+				<itemGUID>HoodieDOWN_WhiteTINT</itemGUID>
 				<subItems>
-					<itemGUID>JacketLong_RandomOPEN</itemGUID><!--JacketLong_RandomOPEN-->
+					<itemGUID>HoodieUP_WhiteTINT</itemGUID>
+				</subItems>
+				<subItems>
+					<itemGUID>HoodieUP_WhiteTINTOPEN</itemGUID>
 				</subItems>
 			</subItems>
 			<subItems>
-				<itemGUID>Jacket_PaddedDOWN</itemGUID>
+				<itemGUID>Jacket_ArmyCamoDesert</itemGUID>
+				<subItems>
+					<itemGUID>Jacket_ArmyCamoDesertOPEN</itemGUID>
+				</subItems>
+				<subItems>
+					<itemGUID>Jacket_ArmyCamoDesertROLL</itemGUID>
+				</subItems>
+			</subItems>
+			<subItems>
+				<itemGUID>Jacket_ArmyCamoGreen</itemGUID>
+				<subItems>
+					<itemGUID>Jacket_ArmyCamoGreenOPEN</itemGUID>
+				</subItems>
+				<subItems>
+					<itemGUID>Jacket_ArmyCamoGreenROLL</itemGUID>
+				</subItems>
+			</subItems>
+			<subItems>
+				<!--NEEDS UPDATING-->
+				<itemGUID>Jacket_ArmyOliveDrab</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Jacket_Leather</itemGUID>
+				<subItems>
+					<itemGUID>Jacket_LeatherOPEN</itemGUID>
+				</subItems>
+				<subItems>
+					<itemGUID>Jacket_LeatherROLL</itemGUID>
+				</subItems>
+			</subItems>
+			<subItems>
+				<itemGUID>Jacket_Padded</itemGUID>
+				<subItems>
+					<itemGUID>Jacket_PaddedDOWN</itemGUID>
+				</subItems>
+			</subItems>
+			<subItems>
+				<itemGUID>Jumper_RoundNeck</itemGUID>
+				<subItems>
+					<itemGUID>Jumper_RoundNeckROLL</itemGUID>
+				</subItems>
+			</subItems>
+			<subItems>
+				<itemGUID>LongCoat_Bathrobe</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Suit_Jacket</itemGUID>
+				<subItems>
+					<itemGUID>Suit_JacketOPEN</itemGUID>
+				</subItems>
+				<subItems>
+					<itemGUID>Suit_JacketROLL</itemGUID>
+				</subItems>
 			</subItems>
 		</m_items>
 		<m_items>
-			<probability>0.5</probability>
 			<itemGUID>Trousers_JeanBaggy</itemGUID>
+			<subItems>
+				<itemGUID>Shorts_LongDenim</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Skirt_Normal</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Trousers_Crafted_DenimRandom</itemGUID>
+			</subItems>
 			<subItems>
 				<itemGUID>Trousers_Padded</itemGUID>
 			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.2</probability>
-			<itemGUID>Jacket_ArmyCamoDesert</itemGUID><!--Jacket_ArmyCamoDesert-->
 			<subItems>
-				<itemGUID>Jacket_ArmyCamoDesertOPEN</itemGUID><!--Jacket_ArmyCamoDesertOPEN-->
+				<itemGUID>Trousers_Sport</itemGUID>
 			</subItems>
 			<subItems>
-				<itemGUID>Jacket_ArmyCamoDesertROLL</itemGUID><!--Jacket_ArmyCamoDesertROLL-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_ArmyCamoGreen</itemGUID><!--Jacket_ArmyCamoGreen-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_ArmyCamoGreenOPEN</itemGUID><!--Jacket_ArmyCamoGreenOPEN-->
-			</subItems>
-			<subItems>
-				<itemGUID>Jacket_ArmyCamoGreenROLL</itemGUID><!--Jacket_ArmyCamoGreenROLL-->
+				<itemGUID>Trousers_Suit</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>
-			<probability>0.5</probability>
+			<probability>0.1</probability>
 			<itemGUID>Scarf_StripeBlackWhite</itemGUID>
 			<subItems>
 				<itemGUID>Scarf_StripeBlueWhite</itemGUID>
@@ -1608,24 +1556,82 @@
 			</subItems>
 		</m_items>
 		<m_items>
-			<probability>0.3</probability>
 			<itemGUID>Shoes_ArmyBoots</itemGUID>
 			<subItems>
 				<itemGUID>Shoes_ArmyBootsDesert</itemGUID>
 			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.5</probability>
-			<itemGUID>Shoes_BlackBoots</itemGUID>
-		</m_items>
-		<m_items>
-			<itemGUID>Socks_LegWarmers</itemGUID>
 			<subItems>
-				<itemGUID>Socks_Long</itemGUID>
+				<itemGUID>Shoes_FlipFlop</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Shoes_RagWrap</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Shoes_Random</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Shoes_Sandals</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Shoes_Strapped</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Shoes_TrainerTINT</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Shoes_Wellies</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Shoes_WorkBoots</itemGUID>
 			</subItems>
 		</m_items>
+		<m_items>
+			<itemGUID>Socks_Heavy</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>Necklace_Crucifix</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>Gloves_FingerlessGloves</itemGUID>
+			<subItems>
+				<itemGUID>Gloves_RagWrap</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Gloves_WhiteTINT</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>Socks_LegWarmers</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>Glasses_Normal</itemGUID>
+			<subItems>
+				<itemGUID>Glasses_Eyepatch_Left</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Glasses_Eyepatch_Right</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Glasses_Reading</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>LongJohns</itemGUID>
+			<subItems>
+				<itemGUID>LongJohns_Bottoms</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.01</probability>
+			<itemGUID>Necklace_Locket</itemGUID>
+		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits><!--GOOD-->
+	<m_FemaleOutfits>
 		<m_Name>OfficeWorkerSkirt</m_Name>
 		<m_Guid>959f7e01-d9df-4557-a582-0aa76d39f48c</m_Guid>
 		<m_Top>false</m_Top>
@@ -1636,9 +1642,6 @@
 		<m_items>
 			<probability>0.3</probability>
 			<itemGUID>Tie_Worn</itemGUID>
-		</m_items>
-		<m_items>
-			<itemGUID>Socks_Ankle</itemGUID>
 		</m_items>
 		<m_items>
 			<itemGUID>Shoes_Black</itemGUID>
@@ -1654,10 +1657,28 @@
 					<itemGUID>Shirt_FormalTINTROLL</itemGUID><!--Shirt_FormalTINTROLL-->
 				</subItems>
 			</subItems>
+			<subItems>
+				<itemGUID>Shirt_FormalWhite_ShortSleeve</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Shirt_FormalWhite_ShortSleeveTINT</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
 			<probability>0.3</probability>
 			<itemGUID>Glasses_Normal</itemGUID>
+			<subItems>
+				<itemGUID>Glasses_CatsEye</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Glasses_Cosmetic_Normal</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Glasses_HalfMoon</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>Glasses_Normal_HornRimmed</itemGUID>
+			</subItems>
 			<subItems>
 				<itemGUID>Glasses_Reading</itemGUID>
 			</subItems>
