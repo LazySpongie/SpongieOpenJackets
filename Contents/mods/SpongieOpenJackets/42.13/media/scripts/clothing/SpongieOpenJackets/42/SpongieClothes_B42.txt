@@ -219,7 +219,7 @@ module Base {
 		ScratchDefense = 5,
 		WindResistance = 0.4,
 		WorldStaticModel = Trousers_Shellsuit_Ground,
-		Tags = IsFireFuel;IsFireTinder,
+		Tags = base:isfirefuel;base:isfiretinder,
 	}
 		
 	item Trousers_Shellsuit_BlueTUCK
@@ -235,7 +235,7 @@ module Base {
 		ScratchDefense = 5,
 		WindResistance = 0.4,
 		WorldStaticModel = Trousers_Shellsuit_Ground,
-		Tags = IsFireFuel;IsFireTinder,
+		Tags = base:isfirefuel;base:isfiretinder,
 	}
 		
 	item Trousers_Shellsuit_GreenTUCK
@@ -251,7 +251,7 @@ module Base {
 		ScratchDefense = 5,
 		WindResistance = 0.4,
 		WorldStaticModel = Trousers_Shellsuit_Ground,
-		Tags = IsFireFuel;IsFireTinder,
+		Tags = base:isfirefuel;base:isfiretinder,
 	}
 		
 	item Trousers_Shellsuit_PinkTUCK
@@ -267,7 +267,7 @@ module Base {
 		ScratchDefense = 5,
 		WindResistance = 0.4,
 		WorldStaticModel = Trousers_Shellsuit_Ground,
-		Tags = IsFireFuel;IsFireTinder,
+		Tags = base:isfirefuel;base:isfiretinder,
 	}
 		
 	item Trousers_Shellsuit_TealTUCK
@@ -283,7 +283,7 @@ module Base {
 		ScratchDefense = 5,
 		WindResistance = 0.4,
 		WorldStaticModel = Trousers_Shellsuit_Ground,
-		Tags = IsFireFuel;IsFireTinder,
+		Tags = base:isfirefuel;base:isfiretinder,
 	}
 		
 	item Trousers_Shellsuit_TINTTUCK
@@ -299,7 +299,7 @@ module Base {
 		ScratchDefense = 5,
 		WindResistance = 0.4,
 		WorldStaticModel = Trousers_Shellsuit_Ground,
-		Tags = IsFireFuel;IsFireTinder,
+		Tags = base:isfirefuel;base:isfiretinder,
 	}
 	
 	item Trousers_SportTUCK

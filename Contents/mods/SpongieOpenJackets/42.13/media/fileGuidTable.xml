@@ -295,6 +295,19 @@
 		<guid>36eb3ab3-TUCK-4947-8eba-9bc61158112d</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Trousers_SuitTUCK.xml</path>
+		<guid>52acd769-TUCK-4cbb-b02a-441cb723b747</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_SuitWhiteTUCK.xml</path>
+		<guid>309ccaef-TUCK-4a7d-859d-bb4d29e8ff69</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_WhiteTINTTUCK.xml</path>
+		<guid>4601d062-TUCK-49b4-828a-cd0661ead6b6</guid>
+	</files>
+
+	<!-- <files>
 		<path>media/clothing/clothingItems/Trousers_Shellsuit_BlackTUCK.xml</path>
 		<guid>446eeb6c-TUCK-4c54-ab2b-5a5a146992e5</guid>
 	</files>
@@ -317,19 +330,7 @@
 	<files>
 		<path>media/clothing/clothingItems/Trousers_Shellsuit_WhiteTUCK.xml</path>
 		<guid>4aadd07b-TUCK-4f69-a00a-2a113c17ae59</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Trousers_SuitTUCK.xml</path>
-		<guid>52acd769-TUCK-4cbb-b02a-441cb723b747</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Trousers_SuitWhiteTUCK.xml</path>
-		<guid>309ccaef-TUCK-4a7d-859d-bb4d29e8ff69</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Trousers_WhiteTINTTUCK.xml</path>
-		<guid>4601d062-TUCK-49b4-828a-cd0661ead6b6</guid>
-	</files>
+	</files> -->
 	
 	
 	<!--Shirts Rolled-->
