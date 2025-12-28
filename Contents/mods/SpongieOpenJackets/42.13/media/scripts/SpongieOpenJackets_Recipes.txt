@@ -1,0 +1,37 @@
+module Base
+{
+	craftRecipe ConvertShirtIntoVest
+	{
+		timedAction = SewingCloth,
+		Time = 60,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        xpAward = Tailoring:2,
+		inputs
+		{
+            item 1 tags[base:scissors] mode:keep flags[SharpnessCheck;IsNotDull],
+
+			item 1 [Base.Shirt_Lumberjack;Base.Shirt_LumberjackOPEN;Base.Shirt_LumberjackROLL;Base.Shirt_LumberjackOPENROLL;
+					Base.Shirt_Denim;Base.Shirt_DenimOPEN;Base.Shirt_DenimROLL;Base.Shirt_DenimOPENROLL] 
+					mappers[shirtTypes]
+					flags[IsNotWorn;InheritFavorite;CopyClothing],
+		}
+		outputs
+		{
+			item 1 mapper:shirtTypes
+			item 2 Base.DenimStrips,
+		}
+		itemMapper shirtTypes
+        {
+            Base.Shirt_Lumberjack  = Base.Shirt_LumberjackVest,
+            Base.Shirt_LumberjackOPEN  = Base.Shirt_LumberjackVest,
+            Base.Shirt_LumberjackROLL  = Base.Shirt_LumberjackVest,
+            Base.Shirt_LumberjackOPENROLL  = Base.Shirt_LumberjackVest,
+			
+            Base.Shirt_Denim  = Base.Shirt_DenimVest,
+            Base.Shirt_DenimOPEN  = Base.Shirt_DenimVest,
+            Base.Shirt_DenimROLL  = Base.Shirt_DenimVest,
+            Base.Shirt_DenimOPENROLL  = Base.Shirt_DenimVest,
+        }
+	}
+}
