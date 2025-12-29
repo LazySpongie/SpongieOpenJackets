@@ -169,6 +169,7 @@ function OpenJackets_ItemTweaker.AddOpenHoodie(hoodieUP, hoodieDOWN)
 end
 
 function OpenJackets_ItemTweaker.AddOpenAndTiedHoodie(hoodieUP, hoodieDOWN, hoodieTIED)
+	OpenJackets_ItemTweaker.AddOpenHoodie(hoodieUP, hoodieDOWN)
 	local hoodieUPOPEN = hoodieUP .. "OPEN";
 	local hoodieDOWNOPEN = hoodieDOWN .. "OPEN";
 	
