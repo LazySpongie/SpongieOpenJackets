@@ -1,7 +1,8 @@
-name=Spongie's Open Jackets
+name=Spongie's Open Jackets [VANILLA CLOTHING] 
 id=SpnOpenCloth
 author=Spongie
 icon=icon.png
-description=New ways to wear clothes
+description=Adds open jackets functionality to vanilla clothing
 poster=poster.png
 modversion=14
+require=SpnOpenClothBase

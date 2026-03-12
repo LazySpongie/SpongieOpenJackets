@@ -1,0 +1,166 @@
+
+
+local OpenJackets_ItemTweaker = require("SpongieOpenJackets/OpenJackets_ItemTweaker")
+
+local items = {
+    AddOpenAndRolledShirt = {
+        "Jacket_WhiteTINT",
+        "Jacket_NavyBlue",
+        "Jacket_Fireman",
+        "Jacket_Chef",
+        "Jacket_ArmyCamoDesert",
+        "Jacket_ArmyCamoGreen",
+        "Jacket_CoatArmy",
+        "Jacket_Police",
+        "Jacket_Ranger",
+        "Jacket_Varsity",
+        "JacketLong_Doctor",
+        "JacketLong_Random",
+        "JacketLong_Santa",
+        "JacketLong_SantaGreen",
+        "Jacket_Black",
+        "Jacket_LeatherWildRacoons",
+        "Jacket_LeatherIronRodent",
+        "Jacket_LeatherBarrelDogs",
+        "WeddingJacket",
+        "Suit_Jacket",
+        "Suit_JacketTINT",
+        "Jacket_Shellsuit_Black",
+        "Jacket_Shellsuit_Blue",
+        "Jacket_Shellsuit_Green",
+        "Jacket_Shellsuit_Pink",
+        "Jacket_Shellsuit_Teal",
+        "Jacket_Shellsuit_TINT",
+
+        "Shirt_CamoUrban",
+        "Shirt_CamoDesert",
+        "Shirt_CamoGreen",
+        "Shirt_Denim",
+        "Shirt_Lumberjack",
+        "Shirt_OfficerWhite",
+        "Shirt_PoliceBlue",
+        "Shirt_PoliceGrey",
+        "Shirt_PrisonGuard",
+        "Shirt_Priest",
+        "Shirt_Ranger",
+        "Shirt_FormalTINT",
+        "Shirt_FormalWhite",
+        "Shirt_Workman",
+        "Shirt_Jockey01",
+        "Shirt_Jockey02",
+        "Shirt_Jockey03",
+        "Shirt_Jockey04",
+        "Shirt_Jockey05",
+        "Shirt_Jockey06",
+    },
+    AddOpenAndTiedCoveralls = {
+        "Boilersuit",
+        "Boilersuit_BlueRed",
+        "Boilersuit_Yellow",
+        "Boilersuit_Flying",
+        "Boilersuit_Prisoner",
+        "Boilersuit_PrisonerKhaki",
+    },
+    AddTuckedPants = {
+        "Trousers",
+        "TrousersMesh_DenimLight",
+        "Trousers_LeatherBlack",
+        "Trousers_CamoDesert",
+        "Trousers_CamoGreen",
+        "Trousers_CamoUrban",
+        "Trousers_Chef",
+        "Trousers_Denim",
+        "Trousers_Fireman",
+        "Trousers_JeanBaggy",
+        "Trousers_Padded",
+        "Trousers_Police",
+        "Trousers_PoliceGrey",
+        "Trousers_PrisonGuard",
+        "Trousers_Ranger",
+        "Trousers_Scrubs",
+        "Trousers_Scrubs",
+        "Trousers_Suit",
+        "Trousers_SuitWhite",
+        "Trousers_WhiteTINT",
+        "Trousers_ArmyService",
+        "Trousers_Black",
+        "Trousers_NavyBlue",
+    },
+    AddOpenShirt = {
+        "Shirt_Bowling_Blue",
+        "Shirt_Bowling_Brown",
+        "Shirt_Bowling_Green",
+        "Shirt_Bowling_LimeGreen",
+        "Shirt_Bowling_Pink",
+        "Shirt_Bowling_White",
+        "Shirt_Baseball_KY",
+        "Shirt_Baseball_Rangers",
+        "Shirt_Baseball_Z",
+        "Shirt_FormalWhite_ShortSleeve",
+        "Shirt_FormalWhite_ShortSleeveTINT",
+        "Shirt_HawaiianRed",
+        "Shirt_HawaiianTINT",
+        "Tshirt_PoliceBlue",
+        "Tshirt_PoliceGrey",
+        "Tshirt_Ranger",
+        
+        "Shirt_DenimVest",
+        "Shirt_LumberjackVest",
+        
+        "Vest_HighViz",
+        "Vest_Foreman",
+        "Vest_Hunting_CamoGreen",
+        "Vest_Hunting_Camo",
+        "Vest_Hunting_Orange",
+        "Vest_Hunting_Grey",
+        "Vest_Waistcoat_GigaMart",
+        "Vest_WaistcoatTINT",
+        "Vest_Waistcoat",
+    },
+    AddRolledShirt = {
+        "Tshirt_WhiteLongSleeve",
+        "Tshirt_WhiteLongSleeveTINT",
+        "Shirt_Scrubs",
+    },
+    AddRolledAndTiedSweater = {
+        "Jumper_DiamondPatternTINT",
+        "Jumper_PoloNeck",
+        "Jumper_RoundNeck",
+        "Jumper_VNeck",
+    },
+    AddUpAndDownDungarees = {
+        "Dungarees",
+    },
+}
+
+
+-- hoodies dont follow name format
+OpenJackets_ItemTweaker.AddOpenAndTiedHoodie("HoodieUP_WhiteTINT", "HoodieDOWN_WhiteTINT", "Hoodie_WhiteTINTTIED");
+
+for k,v in pairs(items) do
+	OpenJackets_ItemTweaker[k](v);
+end
+
+-- for i,v in ipairs(items.AddOpenAndRolledShirt) do
+-- 	items.OpenJackets_ItemTweaker.AddOpenAndRolledShirt(v);
+-- end
+-- for i,v in ipairs(items.AddOpenAndTiedCoveralls) do
+-- 	items.OpenJackets_ItemTweaker.AddOpenAndTiedCoveralls(v);
+-- end
+-- for i,v in ipairs(items.AddTuckedPants) do
+-- 	items.OpenJackets_ItemTweaker.AddTuckedPants(v);
+-- end
+-- for i,v in ipairs(items.AddOpenShirt) do
+-- 	items.OpenJackets_ItemTweaker.AddOpenShirt(v);
+-- end
+-- for i,v in ipairs(items.AddRolledShirt) do
+-- 	items.OpenJackets_ItemTweaker.AddRolledShirt(v);
+-- end
+-- for i,v in ipairs(items.AddRolledAndTiedSweater) do
+-- 	items.OpenJackets_ItemTweaker.AddRolledAndTiedSweater(v);
+-- end
+-- for i,v in ipairs(items.AddUpAndDownDungarees) do
+-- 	items.OpenJackets_ItemTweaker.AddUpAndDownDungarees(v);
+-- end
+items = nil
+OpenJackets_ItemTweaker = nil

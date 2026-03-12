@@ -2,7 +2,8 @@
 -- this script has become a total mess but it somehow works
 
 
-OpenJackets_ItemTweaker = {};
+
+local ClothingDataToChange = {};
 
 local function Adjust(Name, Property, Value)
     local Item = ScriptManager.instance:getItem(Name)
@@ -17,18 +18,16 @@ local function AdjustClothingOption(Name, ClothingItemExtra, ClothingItemExtraOp
 	Adjust(Name, "clothingExtraSubmenu", "Wear");
 end
 
-
---	Have to make a table of modified clothing items and adjust them at startup to avoid other mods potentially overwriting stuff (aka if Simix's Untucked Shirts were to add an untucked version of a rolled shirt)
-local ClothingDataToChange = {};
-
-function OpenJackets_ItemTweaker.AdjustAllClothingData()	--on startup we run this function to modify every clothing item
+local function AdjustAllClothingData()	--on startup we run this function to modify every clothing item
 	for k, v in pairs(ClothingDataToChange) do
 		AdjustClothingOption(k, v.ClothingItemExtra, v.ClothingItemExtraOption)
 	end
 end
 
-Events.OnGameBoot.Add(OpenJackets_ItemTweaker.AdjustAllClothingData)
+Events.OnGameBoot.Add(AdjustAllClothingData)
 
+
+OpenJackets_ItemTweaker = {};
 
 --add our new clothing changes to the table
 function OpenJackets_ItemTweaker.AddToClothingData(item, item2, contextMenu)
@@ -50,18 +49,6 @@ function OpenJackets_ItemTweaker.AddToClothingData(item, item2, contextMenu)
 	tempString = tempString..contextMenu
 	ClothingDataToChange[item].ClothingItemExtraOption = tempString
 	
-end
-
-local function getTagString(item)
-	local tags = item:getTags()
-
-	local string = ""
-
-	for i = 1, #tags, 1 do
-		string = string .. ";" .. tags:get(i)
-	end
-
-	return string
 end
 
 --Automates the adding of two way items (Jacket_White <----> Jacket_WhiteOPEN)

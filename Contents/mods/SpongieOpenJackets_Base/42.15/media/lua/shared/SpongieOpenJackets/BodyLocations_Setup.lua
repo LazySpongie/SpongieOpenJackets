@@ -1,9 +1,8 @@
-
+require("NPCs/BodyLocations")
 
 local BodyLocations_Helper = require("SpongieOpenJackets/BodyLocations_Helper")
 
-local group = BodyLocations.getGroup("Human")
-local jacketIndex = group:indexOf(ItemBodyLocation.JACKET)
+local jacketIndex = BodyLocations_Helper.group:indexOf(ItemBodyLocation.JACKET)
 
 local bodylocations = {
     [SpnOpenCloth.ItemBodyLocation.JACKET_OPEN] = {
@@ -76,7 +75,12 @@ local bodylocations = {
 
 
 for name, data in pairs(bodylocations) do
-    BodyLocations_Helper.CreateLocation(name, data)
+    BodyLocations_Helper:AddLocation(name, data.index)
+end
+for name, data in pairs(bodylocations) do
+    BodyLocations_Helper:SetExclusive(name, data.exclusive)
+    BodyLocations_Helper:SetHidden(name, data.hidden)
+    BodyLocations_Helper:SetAltModel(name, data.altModel)
 end
 
 bodylocations = nil
