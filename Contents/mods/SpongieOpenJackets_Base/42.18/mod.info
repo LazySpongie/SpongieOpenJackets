@@ -2,6 +2,6 @@ name=Spongie's Open Jackets [BASE]
 id=SpnOpenClothBase
 author=Spongie
 icon=icon.png
-description=BASE MOD FOR OPEN JACKETS AND MOD SUPPORT
+description=Base functionality for the mod. DOES NOT DO ANYTHING ON IT'S OWN YOU NEED TO ENABLE THE VANILLA CLOTHING MOD AS WELL
 poster=poster.png
 modversion=1

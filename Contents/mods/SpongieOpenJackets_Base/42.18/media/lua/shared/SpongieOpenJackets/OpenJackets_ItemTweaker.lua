@@ -1,7 +1,4 @@
 
--- this script has become a total mess but it somehow works
-
-
 
 local ClothingDataToChange = {};
 
@@ -61,13 +58,6 @@ function OpenJackets_ItemTweaker.AddNewExtraItem(originalItemName, newItemName, 
 	OpenJackets_ItemTweaker.AddToClothingData(originalItemName, newItemName, newContextMenu)
 	OpenJackets_ItemTweaker.AddToClothingData(newItemName, originalItemName, originalContextMenu)
 	
-	--when you right click on the item while it is unequipped the default option will be "Wear" instead of something like "RollUp", you can change this after this function runs to whatever makes more sense for your item
-	--Adjust(originalItemName, "clothingExtraSubmenu", "Wear");
-	--Adjust(newItemName, "clothingExtraSubmenu", "Wear");
-	
-	-- --copy tags because im lazy
-	-- newItem:DoParam("Tags = ".. getTagString(originalItem))
-
 	if resistanceModifier then 
 		-- modify resistance
 		newItem:DoParam("Insulation = "..(originalItem:getInsulation()*resistanceModifier))
@@ -78,8 +68,8 @@ end
 
 -- EXAMPLE OF HOW TO USE THIS FUNCTION
 --SpongieOpenJackets.AddNewExtraItem("Jacket_White", "Jacket_WhiteOPEN", "CloseJacket", "OpenJacket", 0.75);
-
---if you dont want a resistance modifier then set it to 1 or leave it blank
+--if you dont want a resistance modifier then leave it blank
+--setting resistance modifier to 1 will copy the weather resistance from the first item to the second item
 
 
 
