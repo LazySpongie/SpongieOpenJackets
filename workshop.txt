@@ -1,11 +1,21 @@
 version=1
 id=2812326159
 title=Spongie's Open Jackets
-description=[h1][b]UPDATED FOR 42.13 BUT NO CLOTHING ITEMS ADDED IN B42 ARE SUPPORTED YET[/b][/h1]
+description=[quote]
+description=[h1]UPDATED FOR B42.19 AND (probably) 42.20 STABLE[/h1]
+description=
+description=[h2]- REMOVED B41 FILES. B41 VERSION LINKED BELOW[/h2]
+description=
+description=[h2]- THE MOD HAS BEEN SPLIT INTO 2 MODULES[/h2]
+description=The Base module is the framework that's used by this mod and my clothing mod
+description=The Vanilla Items module adds the customisation options to the vanilla clothing
+description=
+description=- Updated translations
+description=[/quote]
 description=
 description=[quote]
-description=[h1]Supports B41 and B42[/h1]
-description=[h2][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3626424626]B41 USERS SWITCH TO THE B41 LEGACY VERSION HERE. I WILL REMOVE THE B41 FILES FROM THE MAIN MOD WHEN STABLE RELEASES[/url][/h2]
+description=[h1]Supports B42.19+. Works in multiplayer.[/h1]
+description=[h2][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3626424626]B41 VERSION[/url][/h2]
 description=[/quote]
 description=
 description=[quote]
@@ -26,9 +36,6 @@ description=[h3][b]Wearing jackets open and rolled at the same time will make sk
 description=[/quote]
 description=
 description=[quote]
-description=[h1]Credits[/h1]
-description=Uses the bodylocation api by Shurutsue
-description=
 description=[h2]Supported Translations[/h2]
 description=RU - Nikityan
 description=FR - i_am_dost & Delran
@@ -40,10 +47,6 @@ description=TH - Overlord
 description=IT - Burjak
 description=AR - Silvestre
 description=[/quote]
-description=
-description=[hr]
-description=[h2][b]Also check out these other mods:[/b][/h2]
-description=[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2684285534][img]https://steamuserimages-a.akamaihd.net/ugc/2090290145445801021/67D9127E768D9AF7969ED0698E4FA414425E7F98/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3296852138][img]https://steamuserimages-a.akamaihd.net/ugc/2512529879888851930/8702CD5223D9DAE6D1AFF0CD470B13D9752D6557/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2786689104][img]https://steamuserimages-a.akamaihd.net/ugc/1811017505338402026/0415043E71CB412E06DAC6D8030EE2325632A2CC/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img][/url]
 description=
 description=
 description=[url=https://github.com/LazySpongie/SpongieOpenJackets]View on Github[/url]

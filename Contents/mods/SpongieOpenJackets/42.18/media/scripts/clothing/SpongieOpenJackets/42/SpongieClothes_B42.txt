@@ -294,7 +294,7 @@ module Base {
 		Icon = TracksuitPantsGeneric,
 		BloodLocation = Trousers,
 		BodyLocation = base:pants,
-		ClothingItem = Trousers_Shellsuit_WhiteTUCK,
+		ClothingItem = Trousers_Shellsuit_TINTTUCK,
 		Insulation = 0.30,
 		ScratchDefense = 5,
 		WindResistance = 0.4,
